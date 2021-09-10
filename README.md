@@ -19,7 +19,7 @@ The training process in ```main.py``` can be significantly accelerated if GPU(s)
 ## Data
 ### Google Syntactic N-grams (GSN)
 * Raw syntactic N-grams data can be downloaded at: http://commondatastorage.googleapis.com/books/syntactic-ngrams/index.html. All frame usages are extracted from the 99 files under the "Verbargs" subcategory.
-* Extracted syntactic N-grams for each decade can be found in ```data/gsn/```.
+* Extracted syntactic N-grams for each decade can be found in ```data/gsn/gsn_data.csv```.
 
 ### ConceptNet 
 To train ConceptNet embeddings with "anachronistic" concepts pruned out in historical decades:
